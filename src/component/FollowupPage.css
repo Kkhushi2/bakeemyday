@@ -1,0 +1,158 @@
+.main-container{
+     height: 50vh;
+     
+     display: flex;
+     padding: 0;
+
+     
+    
+}
+
+.main-container_image{
+     height: 300px;
+     width: 300px;
+     transform: rotate(315deg);
+
+}
+.image{
+     width: 30%;
+     
+     border-radius: 100px;
+}
+.Header{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+.main-container_image:hover{
+    transform: rotate(330deg);
+    cursor: pointer;
+   
+}
+.main-content{
+     width: 100%;
+     padding-right: 15px;
+     background:  #FEC8D8
+}
+.choclatefont{
+    color:rgb(143, 41, 41);
+    font-family: 'Pacifico', cursive;
+    font-size:xx-large;
+    background:  #FEC8D8
+}
+.viewall{
+     font-weight: 600;
+     cursor: pointer;
+     padding-top: 40px;
+     padding-right: 30px;
+}
+.card{
+     display: flex;
+     padding: 20px;
+     overflow-x: scroll;
+     overflow-y: hidden;
+     justify-content: space-evenly;
+     background-color: rgb(225, 195, 106);
+    
+     
+
+}
+.card::-webkit-scrollbar{
+    display: none;
+}
+@keyframes productcard {
+     0% {
+       background-position-x: 0;
+     }
+     100% {
+       background-position-x: -200px;
+     }
+   }
+.boxcakeimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    height: 90%;
+    position: relative;
+    border-radius: 10px;
+    object-fit: contain;
+    margin-right: 7px;
+    margin-bottom: 20px;
+    animation: productcard 10s linear infinite;
+    /* align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column; */
+   
+
+
+}
+.boxcakeimg:hover{
+     transform: scale(1.2);
+}
+.box{
+    padding: 25;
+    margin: 12;
+    background: '#d1ccc0';
+    border-radius: 20;
+    align-items: 'center';
+    justify-content: 'center';
+    display: 'flex';
+
+}
+.container {
+    padding: 40px;
+    background: #419be0;
+  }
+  
+  .slick-slide img {
+    margin: auto;
+
+  }
+  
+  .productcard{
+    
+   
+     position: absolute;
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+     height: 100px;
+     width: 100px;
+     background-color: white;
+     padding: 10px;
+     border-radius: 100px;
+     overflow: hidden;
+      
+     
+  }
+  .productcard:hover{
+     border-radius: 0px;
+     width: 500px;
+     padding: 0px;
+
+     
+     
+  }
+  
+  .productcardstrechy{
+     
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+     height: 200px;
+     width: 200px;
+     border: solid;
+     margin: 10px;
+     border-radius: 100px;
+     background-color: rgb(225, 195, 106);
+     
+  }
+  .slick{
+  color: yellow;
+  height: 90px;
+}
+
