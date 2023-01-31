@@ -1,0 +1,19 @@
+.main_followus{
+     height: 65vh;
+     background-color: rgb(225, 195, 106);
+     
+     border: solid;
+     border-color: rgb(225, 195, 106);
+     margin-top: 0px;
+}
+.side1{
+      height: 70vh;
+      border-radius: 20px;
+      display: flex;
+      
+    
+      flex-direction: column;
+      background-color: white;
+      padding: 40px;
+     
+}

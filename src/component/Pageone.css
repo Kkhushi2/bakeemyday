@@ -1,0 +1,56 @@
+
+ .main-container{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        margin-top:90px;
+        padding:80px;
+        font-weight: bold;
+        font-family:'Gill Sans';
+        background-color:rgb(225, 195, 106);;
+    
+       
+ }
+ .video {
+  
+  justify-content: center;
+  color: black;
+  
+ 
+ }
+
+
+.content {
+  position: absolute;
+  bottom:125px;
+
+  color: #f1f1f1;
+align-items: center;
+  justify-content:center;
+  margin-top:30px;
+  padding:100px;
+  font-weight: bold;
+  
+  margin-right:70px ;
+  top:0px
+
+
+  
+}
+.btn{
+     background-color: wheat;
+     display: flex;
+ 
+     margin-right: 9px;
+     height: 30px;
+     width: 90px;
+     border: none;
+     filter: drop-shadow(2px 4px 6px black);
+     justify-content: center;
+     align-items: center;
+     padding: 5px;
+     border-radius: 10px;
+     cursor: pointer;
+}
+ 
+       
